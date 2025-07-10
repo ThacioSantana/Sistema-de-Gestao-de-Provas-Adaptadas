@@ -45,4 +45,4 @@ Substituir o processo manual realizado via e-mail por um sistema centralizado e 
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   https://github.com/ThacioSantana/Sistema-de-Gestao-de-Provas-Adaptadas.git
