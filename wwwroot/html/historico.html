@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Histórico - Sistema de Validação</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-left">
+        <span class="navbar-brand">Sistema de Validação</span>
+    </div>
+    <div class="navbar-right">
+        <span id="userEmail" class="navbar-text"></span>
+        <button id="logoutBtn" class="btn-logout">Sair</button>
+    </div>
+</nav>
+
+<div class="container">
+    <aside class="sidebar">
+        <ul class="menu">
+            <li><a href="dashboard.html" id="menuDashboard">Dashboard</a></li>
+            <li><a href="enviar-prova.html" id="menuEnviarProva">Enviar Prova</a></li>
+            <li><a href="avaliar-prova.html" id="menuAvaliarProva">Abertura de Chamado</a></li>
+            <li><a href="historico.html" id="menuHistorico">Histórico</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <h1>Histórico</h1>
+
+        <div class="filtro-container">
+            <input type="text" id="filtroBusca" placeholder="Buscar por nome ou matrícula..." />
+            <select id="filtroStatus">
+                <option value="">Todos os status</option>
+                <option value="Criado">Criado</option>
+                <option value="Em andamento">Em andamento</option>
+                <option value="Concluído">Concluído</option>
+                <option value="Prova enviada">Prova enviada</option>
+                <option value="Aprovado">Aprovado</option>
+            </select>
+        </div>
+
+        <div id="listaChamados" class="chamados-container">
+            <p>Carregando histórico...</p>
+        </div>
+    </main>
+</div>
+
+<!-- Modal de detalhes -->
+<div id="modalDetalhes" class="modal" style="display:none;">
+    <div class="modal-content">
+        <span id="fecharModal" class="close">&times;</span>
+        <h2>Detalhes do Chamado</h2>
+        <div id="conteudoModal"></div>
+    </div>
+</div>
+
+<script type="module" src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\html\\avaliar-prova.html",
+      "PackagePath": "staticwebassets\\html\\avaliar-prova.html"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\html\\dashboard.html",
+      "PackagePath": "staticwebassets\\html\\dashboard.html"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\html\\enviar-prova.html",
+      "PackagePath": "staticwebassets\\html\\enviar-prova.html"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\html\\historico.html",
+      "PackagePath": "staticwebassets\\html\\historico.html"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\js\\api.js",
+      "PackagePath": "staticwebassets\\js\\api.js"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\js\\auth.js",
+      "PackagePath": "staticwebassets\\js\\auth.js"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\js\\avaliar-prova.js",
+      "PackagePath": "staticwebassets\\js\\avaliar-prova.js"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\js\\enviar-prova.js",
+      "PackagePath": "staticwebassets\\js\\enviar-prova.js"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\js\\historico.js",
+      "PackagePath": "staticwebassets\\js\\historico.js"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Thacio Santana\\RiderProjects\\SistemaDeChamadosNAA\\SistemaDeChamadosNAA\\wwwroot\\js\\roles.js",
+      "PackagePath": "staticwebassets\\js\\roles.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SistemaDeChamadosNAA.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SistemaDeChamadosNAA.props",
+      "PackagePath": "build\\SistemaDeChamadosNAA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SistemaDeChamadosNAA.props",
+      "PackagePath": "buildMultiTargeting\\SistemaDeChamadosNAA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SistemaDeChamadosNAA.props",
+      "PackagePath": "buildTransitive\\SistemaDeChamadosNAA.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

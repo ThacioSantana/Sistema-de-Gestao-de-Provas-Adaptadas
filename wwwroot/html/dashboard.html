@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Sistema de Validação</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <span class="navbar-brand">Sistema de Validação</span>
+        </div>
+        <div class="navbar-right">
+            <span id="userEmail" class="navbar-text"></span>
+            <button id="logoutBtn" class="btn-logout">Sair</button>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <aside class="sidebar">
+            <ul class="menu">
+                <li><a href="dashboard.html" id="menuDashboard">Dashboard</a></li>
+                <li><a href="enviar-prova.html" id="menuEnviarProva">Enviar Prova</a></li>
+                <li><a href="avaliar-prova.html" id="menuAvaliarProva">Abertura de Chamado</a></li>
+                <li><a href="historico.html" id="menuHistorico">Histórico</a></li>
+            </ul>
+        </aside>
+        
+        <main class="main-content">
+            <h1 id="welcomeMessage">Bem-vindo ao Sistema</h1>
+            <div class="dashboard-cards">
+                <div class="card" id="cardProvasPendentes">
+                    <h3>Provas Pendentes</h3>
+                    <p id="provasPendentes">0</p>
+                </div>
+                <div class="card" id="cardProvasAvaliadas">
+                    <h3>Provas Avaliadas</h3>
+                    <p id="provasAvaliadas">0</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/dashboard.js"></script>
+</body>
+</html>

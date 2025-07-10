@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abertura de Chamado - Sistema de Validação</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-left">
+        <span class="navbar-brand">Sistema de Validação</span>
+    </div>
+    <div class="navbar-right">
+        <span id="userEmail" class="navbar-text"></span>
+        <button id="logoutBtn" class="btn-logout">Sair</button>
+    </div>
+</nav>
+
+<div class="container">
+    <aside class="sidebar">
+        <ul class="menu">
+            <li><a href="dashboard.html" id="menuDashboard">Dashboard</a></li>
+            <li><a href="avaliar-prova.html" id="menuAvaliarProva">Abertura de Chamado</a></li>
+            <li><a href="historico.html" id="menuHistorico">Histórico</a></li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <h1>Abertura de Chamado para Alunos com Deficiência</h1>
+
+        <form id="formChamado">
+            <!-- Matrícula do aluno -->
+            <div class="form-group">
+                <label for="alunoMatricula">Matrícula do Aluno:</label>
+                <input type="text" id="alunoMatricula" name="alunoMatricula" required>
+            </div>
+
+            <!-- Nome do aluno -->
+            <div class="form-group">
+                <label for="alunoNome">Nome do Aluno:</label>
+                <input type="text" id="alunoNome" name="alunoNome" readonly>
+            </div>
+
+            <!-- Email do aluno -->
+            <div class="form-group">
+                <label for="alunoEmail">Email do Aluno:</label>
+                <input type="email" id="alunoEmail" name="alunoEmail" readonly>
+            </div>
+
+            <!-- Curso -->
+            <div class="form-group">
+                <label for="curso">Curso:</label>
+                <select id="curso" name="curso" disabled>
+                    <option value="">Selecione o curso</option>
+                </select>
+            </div>
+
+            <!-- Tipo de deficiência -->
+            <div class="form-group">
+                <label for="tipoDeficiencia">Tipo de Deficiência:</label>
+                <select id="tipoDeficiencia" name="tipoDeficiencia" required>
+                    <option value="">Selecione o tipo</option>
+                    <option value="Visual">Visual</option>
+                    <option value="Auditiva">Auditiva</option>
+                    <option value="Motora">Motora</option>
+                    <option value="Intelectual">Intelectual</option>
+                    <option value="Outra">Outra</option>
+                </select>
+            </div>
+
+            <!-- Descrição -->
+            <div class="form-group">
+                <label for="descricao">Descrição da Necessidade:</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+            </div>
+
+            <!-- Nome do Coordenador -->
+            <div class="form-group">
+                <label for="coordenadorNome">Nome do Coordenador:</label>
+                <input type="text" id="coordenadorNome" name="coordenadorNome" readonly>
+            </div>
+
+            <!-- Email do Coordenador -->
+            <div class="form-group">
+                <label for="coordenadorEmail">Email do Coordenador:</label>
+                <input type="email" id="coordenadorEmail" name="coordenadorEmail" readonly>
+            </div>
+
+            <!-- Anexos -->
+            <div class="form-group">
+                <label for="anexos">Anexos (Laudos, Documentos):</label>
+                <input type="file" id="anexos" name="anexos" multiple>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-submit">Enviar Chamado</button>
+            </div>
+        </form>
+
+        <div id="mensagemSucesso" class="alert-success" style="display: none;">
+            Chamado criado com sucesso! Um email foi enviado ao coordenador.
+        </div>
+    </main>
+</div>
+
+<script type="module" src="/js/avaliar-prova.js"></script>
+<script type="module" src="/js/main.js"></script>
+</body>
+</html>
